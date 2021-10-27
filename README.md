@@ -1,1 +1,1 @@
-# sveltekit-unocss-wp-json
+# sveltekit-unocss
