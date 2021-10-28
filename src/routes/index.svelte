@@ -4,6 +4,7 @@
 
 <script>
 	import Counter from '$lib/Counter.svelte';
+	import Image from 'svimg';
 </script>
 
 <svelte:head>
@@ -17,6 +18,7 @@
 				<source srcset="svelte-welcome.webp" type="image/webp" />
 				<img src="svelte-welcome.png" alt="Welcome" />
 			</picture>
+			<Image src="optimized-images/svelte-welcome.webp"/>
 		</div>
 
 		to your new<br />SvelteKit app
