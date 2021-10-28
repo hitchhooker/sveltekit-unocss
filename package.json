@@ -7,10 +7,11 @@
     "preview": "svelte-kit preview"
   },
   "devDependencies": {
-    "@sveltejs/kit": "next",
-    "svelte": "^3.34.0",
     "@sveltejs/adapter-vercel": "next",
+    "@sveltejs/kit": "next",
     "@unocss/preset-icons": "^0.2.0",
+    "svelte": "^3.34.0",
+    "svimg": "^1.1.0",
     "unocss": "^0.2.0"
   },
   "type": "module",
