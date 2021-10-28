@@ -1,9 +1,9 @@
 # Get started with sveltekit-unocss
 
-fork it
-clone your fork
-npm install
-npm run dev
+fork it  
+clone your fork  
+npm install  
+npm run dev   
 
 
 
