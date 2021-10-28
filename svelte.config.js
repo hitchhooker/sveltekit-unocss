@@ -1,7 +1,8 @@
 /** @type {import('@sveltejs/kit').Config} */
-import Unocss from 'unocss/vite';
-import { presetUno, presetAtrributify, presetWind } from 'unocss';
 import vercel from '@sveltejs/adapter-vercel';
+import Unocss from 'unocss/vite';
+import { presetUno, presetAttributify } from 'unocss';
+import presetIcons from '@unocss/preset-icons'
 
 
 const config = {
@@ -13,8 +14,9 @@ const config = {
 	plugins: [
 		Unocss({
 			presets: [
-				presetAtrributify({}),
+				presetAttributify({}),
 				presetUno(),
+				presetIcons()
 			],
 		})
 	]
