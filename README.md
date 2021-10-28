@@ -1,6 +1,11 @@
-# create-svelte
+# Get started with sveltekit-unocss
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
+fork it  
+clone your fork  
+npm install  
+npm run dev   
+
+
 
 ## Creating a project
 
