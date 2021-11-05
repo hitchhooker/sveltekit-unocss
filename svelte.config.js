@@ -11,7 +11,18 @@ const config = {
 		// hydrate the <div id="svelte"> element in src/app.html
 		target: '#svelte',
 		adapter: vercel(),
-		appDir: '_app'
+		appDir: '_app',
+		vite: {
+			plugins: [
+				Unocss({
+					presets: [
+						presetAttributify({}),
+						presetUno(),
+						presetIcons()
+					],
+				})
+			]
+		}
 	},
 	preprocess: [
         imagePreprocessor({
@@ -21,15 +32,6 @@ const config = {
             avif: false,
         })
 	],
-	plugins: [
-		Unocss({
-			presets: [
-				presetAttributify({}),
-				presetUno(),
-				presetIcons()
-			],
-		})
-	]
 };
 
 export default config;
